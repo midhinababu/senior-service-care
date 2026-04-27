@@ -1,0 +1,35 @@
+/* Sidebar styles */
+.sidebar {
+  min-height: 100vh;
+  background-color: #e0e0e0;
+}
+
+/* Sidebar links */
+.sidebar-link {
+  color: black !important;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.sidebar-link:hover {
+  background-color: #cfcfcf;
+}
+
+/* Mobile hide/show */
+.sidebar-col.hide {
+  display: none;
+}
+
+.sidebar-col.show {
+  display: block;
+}
+
+/* Desktop always visible */
+@media (min-width: 768px) {
+  .sidebar-col {
+    display: block !important;
+  }
+}
+
+
+
