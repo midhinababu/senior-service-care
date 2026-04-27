@@ -53,7 +53,7 @@ export default function UserSettings() {
                     }}
                     src={
                       profile
-                        ? `http://localhost:3001/uploads/${profile.photo}`
+                        ? `${import.meta.env.VITE_API_URL}/uploads/${profile.photo}`
 
                         : "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
                     }
